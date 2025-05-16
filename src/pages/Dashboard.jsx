@@ -119,7 +119,6 @@ function Dashboard({ username }) {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
           <div>
             <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">Welcome, {username}!</h2>
-            <p className="text-gray-600 dark:text-gray-300">Here's your dashboard data from JSONPlaceholder API</p>
           </div>
           
           <div className="mt-4 md:mt-0 relative">
